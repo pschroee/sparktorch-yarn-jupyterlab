@@ -14,7 +14,7 @@ Quellen:
 
 ## Bauen des Docker Images
 
-Die Daten `mnist_train.csv` und `mnist_test.csv` müssen runtergeladen werden und in dem Ordner `mnist` kopiert werden. Die Daten können [hier](https://www.kaggle.com/oddrationale/mnist-in-csv) heruntergeladen werden.
+Die Dateien `mnist_train.csv` und `mnist_test.csv` müssen runtergeladen werden und in dem Ordner `mnist` kopiert werden. Die Dateien können [hier](https://www.kaggle.com/oddrationale/mnist-in-csv) heruntergeladen werden.
 
      $ docker build -t sparktorch .
 
