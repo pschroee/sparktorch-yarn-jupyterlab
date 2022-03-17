@@ -30,7 +30,7 @@ Starten vom lokal gebauten Image:
 
 ## URLS
 
-- [DockerHub Image](<[https](https://hub.docker.com/repository/docker/pschroee/sparktorch-yarn-jupyterlab)>)
+- [DockerHub Image auf DockerHub](https://hub.docker.com/repository/docker/pschroee/sparktorch-yarn-jupyterlab)
 - [JupyterLab (http://localhost:8888)](http://localhost:8888/)
 - [Hadoop GUI (http://localhost:9870)](http://localhost:9870/)
 - [Hadoop Cluster Overview (http://localhost:8088/cluster)](http://localhost:8088/cluster)
