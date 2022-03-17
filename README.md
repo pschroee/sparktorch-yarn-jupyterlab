@@ -20,6 +20,8 @@ Die Dateien `mnist_train.csv` und `mnist_test.csv` müssen runtergeladen werden 
 
 ## Erstellen des Docker Container
 
+Es sollte Docker mindestens 8gb Ram zugewiesen werden.
+
 Starten vom fertig gebauten Image von DockerHub:
 
      $ docker run -it --name **container-name** -p 9864:9864 -p 9870:9870 -p 8088:8088 -p 18080:18080 -p 8042:8042 -p 8888:8888 --hostname **your-hostname** pschroee/sparktorch-yarn-jupyterlab
