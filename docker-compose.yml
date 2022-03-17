@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  hadoop:
+    build: .
+    ports:
+      - "9864:9864"
+      - "9870:9870"
+      - "8088:8088"
+    hostname: localhost
+    stdin_open: true
+    tty: true
